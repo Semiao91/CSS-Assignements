@@ -1,0 +1,19 @@
+#box{
+    background-color: #a09f9f;
+}
+
+.color-h1{
+    color: #fcfcfc;
+}
+
+.color-h2{
+    color: red;
+}
+
+.color-h3{
+    color: rgb(156, 255, 255);
+}
+
+.color-h4{
+    color: hsl(0, 40%, 54%);
+}

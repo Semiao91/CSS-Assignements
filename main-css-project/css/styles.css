@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "roboto-bold";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "roboto-italic";
+  src: url("../fonts/Roboto-LightItalic.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  height: 100px;
+  font-family: "roboto-regular";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #cad6ec;
+  background-color: #1f2937;
+}
+
+.header {
+  font-family: "roboto-regular", "Courier New", Courier, monospace;
+  color: white;
+  background-color: #1f2937;
+  height: 500px;
+  padding-top: 15px;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo {
+  flex-grow: 0.32;
+  font-family: "roboto-bold", "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links {
+  color: #aaaeb5;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 0.05;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.link-hover:hover {
+  color: #7e8288;
+}
+
+.header-main-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5%;
+  height: 45%;
+  gap: 20px;
+}
+
+.header-title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 390px;
+  flex-grow: 0.08;
+}
+
+.awesome-title {
+  font-family: "roboto-bold", "Courier New", Courier, monospace;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.awesome-title-small {
+  font-size: 18px;
+  color: #e5e7eb;
+  width: 456px;
+  padding-bottom: 10px;
+}
+
+.awesome-title-button {
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.awesome-title-button:hover{
+  background-color: #2e5188;
+}
+
+.placeholder-image {
+  background-color: #6d747d;
+  flex-grow: 0.2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.information {
+  background-color: white;
+  height: 500px;
+  padding-top: 15px;
+}
+
+.information-title {
+  font-family: "roboto-bold", "Courier New", Courier, monospace;
+  color: #1f2937;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.information-images {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 70px;
+  gap: 34px;
+}
+
+.information-image {
+  border-color: #3b82f6;
+  border-style: solid;
+  height: 150px;
+  width: 150px;
+  border-radius: 12px;
+}
+
+.information-images-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.information-image-text {
+  font-family: "roboto-regular";
+  color: #4c4d4e;
+  text-align: center;
+  padding-top: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  height: 400px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  font-family: "roboto-italic";
+  color: #1f2937;
+  font-size: 36px;
+  width: 784px;
+}
+
+.quote-text-author {
+  font-family: "roboto-bold";
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.action {
+  background-color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3b82f6;
+  border-radius: 10px;
+  width: 900px;
+  height: 120px;
+}
+
+.action-box-titles {
+  color: white;
+}
+
+.action-box-title {
+  font-family: "roboto-bold";
+  font-size: 20px;
+}
+
+.action-box-sub-title {
+  font-family: "roboto-regular";
+  color: #cad6ec;
+}
+
+.action-button {
+  background-color: #3b82f6;
+  font-family: "roboto-bold";
+  color: white;
+  border-style: solid;
+  padding: 10px 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover{
+  background-color: #2e5188;
+}
